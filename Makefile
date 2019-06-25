@@ -1,9 +1,9 @@
-all : french english
+all : english
 
-french : french.tex
-	pdflatex french.tex
-	pdflatex french.tex
-
-english : english.tex
-	pdflatex english.tex
-	pdflatex english.tex
+english : cv.tex
+	pdflatex cv.tex
+	pdflatex cv.tex
+clean:
+	rm *.aux
+	rm *.log
+	rm *.out
